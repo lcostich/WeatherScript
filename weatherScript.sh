@@ -3,11 +3,11 @@
 
 #                    "Often, I load up the weather app on my phone, and the weather information simply does not load.
 #		      The only information I will see in the temperature slot is "--", even when I'm connected to wi-fi!
-#		      In addition, a significant part of my morning is figuring out what to wear. I would like someone
-#		      (or some program) to tell me what to wear based on the temperature. To do this, I am using the 
+#		      In addition, a significant part of my morning is figuring out what to wear. I wanted to write a script
+#		      that would tell me what to wear based on the temperature. To do this, I am using the 
 #		      OpenWeatherMap API. It is free to sign up for a limited version."
 #  		      
-# The first segment prompts the user for their location, as I wanted to be able to use my script in other locations.
+# The first segment prompts the user for their location, as I want users to be able to use this script in other locations.
 # This version of the curl API pull takes in the name of a city, so I prompt the user for a city name. I also prompt
 # the user for a measurement type, f for Fahrenheit or c for Celsius.
 # This is done using the read command, which reads a single line from the terminal input.
